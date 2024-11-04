@@ -267,11 +267,11 @@ export const RESUME_DATA = {
     },
   ],
   music: [
-    // {
-    //   awardName: "Grade 8 Piano Performance (Pass)",
-    //   year: "2024",
-    //   description: "Issued by The Associated Board of the Royal Schools of Music",
-    // },
+    {
+      awardName: "Grade 8 Piano Performance (Pass)",
+      year: "2024",
+      description: "Issued by The Associated Board of the Royal Schools of Music",
+    },
     // {
     //   awardName: "Grade 7 Piano Performance (Distinction)",
     //   year: "2023",
