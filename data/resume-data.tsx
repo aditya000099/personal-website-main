@@ -62,17 +62,17 @@ export const RESUME_DATA = {
     "Swift",
   ],
   currentlyBuilding: [
-    // {
-    //   name: 'Text Behind Image',
-    //   link: 'https://textbehindimage.rexanwong.xyz',
-    //   badges: ["Free tool", "Design tool"],
-    //   title: "Create text-behind-image designs easily",
-    //   logo: TextBehindImage,
-    //   date: "Since September 2024",
-    //   description: "Creating stunning text-behind-image designs are difficult and there's not many easy-to-use tools online that helps you do that. So I built my own free tool, in 3 hours with AI tools such as cursor.sh, that helps you create these stunning text-behind-image designs easily on your images. Since launching, the tool has gotten 10K users, 2 million views on X/Twitter, #1 Product of the Day on Product Hunt, and notable shoutouts from people like Ryan Hoover, the founder of Product Hunt.",
-    //   videoLink: "https://www.youtube.com/watch?v=3b_Rkv0GYV0",
-    //   projectDetailsLink: "https://producthunt.com/posts/text-behind-image",
-    // },
+    {
+      name: 'Text Behind Image',
+      link: 'https://textbehindimage.rexanwong.xyz',
+      badges: ["Free tool", "Design tool"],
+      title: "Create text-behind-image designs easily",
+      logo: TextBehindImage,
+      date: "Since September 2024",
+      description: "Creating stunning text-behind-image designs are difficult and there's not many easy-to-use tools online that helps you do that. So I built my own free tool, in 3 hours with AI tools such as cursor.sh, that helps you create these stunning text-behind-image designs easily on your images. Since launching, the tool has gotten 10K users, 2 million views on X/Twitter, #1 Product of the Day on Product Hunt, and notable shoutouts from people like Ryan Hoover, the founder of Product Hunt.",
+      videoLink: "https://www.youtube.com/watch?v=3b_Rkv0GYV0",
+      projectDetailsLink: "https://producthunt.com/posts/text-behind-image",
+    },
     // {
     //   name: 'VideoFast (videofast.gg)',
     //   link: 'https://videofast.gg',
@@ -97,17 +97,17 @@ export const RESUME_DATA = {
     //   videoLink: "https://www.youtube.com/watch?v=OYj3Vru7Y4g",
     //   projectDetailsLink: "https://github.com/rexanwong/proof-of-workout-protocol",
     // },
-    // {
-    //   name: "ETHGlobal Online",
-    //   link: "https://x.com/ETHGlobal/status/1717944376528351327?s=20",
-    //   badges: ["Hackathon", "Online", "500+ Teams"],
-    //   title: "Top 10 Finalistis (Winning team) + Mantle Best UX Award",
-    //   logo: EthGlobalLogo,
-    //   date: "10/2023",
-    //   description: "ETHOnline is a three week long online hackathon with over $200,000 USD in prizes as well as a series of curated summits, celebrating some of the most significant happenings & learnings from the past 12 months in web3.  The hackathon is focused on building Ethereum based applications with different bounties' tools and technologies.  I built Koinu, an npm library that allows developers to include a cross chain experience within their dapps.  This project was selected as a finalist project, along with 9 other finalist projects, out of 500 projects.  Being the only under-18 to win the competition, and competiting against the best and most hardcore developers in the Web3 space, out of 515 projects, I learnt a lot more about Web3 and blockchain development during the course of the hackathon and it encouraged me to build blockchain applications more : the fact that I could compete, as a 15 year old, at the time, against the top developers of the Web3 space, and win, I am looking forward to build more applications for everyday users of Web3",
-    //   videoLink: " https://www.youtube.com/watch?v=uNC-Auuz1T4",
-    //   projectDetailsLink: "https://ethglobal.com/showcase/koinu-x8ced",
-    // },
+    {
+      name: "ETHGlobal Online",
+      link: "https://x.com/ETHGlobal/status/1717944376528351327?s=20",
+      badges: ["Hackathon", "Online", "500+ Teams"],
+      title: "Top 10 Finalistis (Winning team) + Mantle Best UX Award",
+      logo: EthGlobalLogo,
+      date: "10/2023",
+      description: "ETHOnline is a three week long online hackathon with over $200,000 USD in prizes as well as a series of curated summits, celebrating some of the most significant happenings & learnings from the past 12 months in web3.  The hackathon is focused on building Ethereum based applications with different bounties' tools and technologies.  I built Koinu, an npm library that allows developers to include a cross chain experience within their dapps.  This project was selected as a finalist project, along with 9 other finalist projects, out of 500 projects.  Being the only under-18 to win the competition, and competiting against the best and most hardcore developers in the Web3 space, out of 515 projects, I learnt a lot more about Web3 and blockchain development during the course of the hackathon and it encouraged me to build blockchain applications more : the fact that I could compete, as a 15 year old, at the time, against the top developers of the Web3 space, and win, I am looking forward to build more applications for everyday users of Web3",
+      videoLink: " https://www.youtube.com/watch?v=uNC-Auuz1T4",
+      projectDetailsLink: "https://ethglobal.com/showcase/koinu-x8ced",
+    },
     // {
     //   name: "Not Another Virtual Hackathon (NAVH) by Cosensys",
     //   link: "https://navhackathon.consensys.io/",
@@ -154,10 +154,10 @@ export const RESUME_DATA = {
     // },
   ],
   notableShoutouts: [
-    // {
-    //   name: "Ryan Hoover, founder of Product Hunt:",
-    //   tweetLink: "https://twitter.com/rrhoover/status/1842977911617335783",
-    // },
+    {
+      name: "First Tweet Maybe?",
+      tweetLink: "https://twitter.com/rrhoover/status/1",
+    },
     // {
     //   name: "Steven Tey, former developer advocate at Vercel:",
     //   tweetLink: "https://twitter.com/steventey/status/1843026678580469916",
