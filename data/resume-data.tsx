@@ -1,12 +1,12 @@
 import { GitHubIcon, LinkedInIcon, XIcon, InstagramIcon } from "@/components/icons";
-import { CityUniversityLogo, EthGlobalLogo, IEEELogo, ThirdwebLogo, Cosensys, DeveloperDao, Apple, Olympiad, Arta, Cryptoblk, HKIS, CAIS, VideoFast, TextBehindImage } from "@/public";
+import { CityUniversityLogo, EthGlobalLogo, LB, React, IEEELogo, ThirdwebLogo, Cosensys, DeveloperDao, Apple, Olympiad, Arta, Cryptoblk, HKIS, CISM, CAIS, VideoFast, TextBehindImage, Next, RT } from "@/public";
 
 export const RESUME_DATA = {
   name: "Aditya Aggarwal",
   initials: "AA",
   location: "India, IND",    
   locationLink: "https://www.google.com/maps/place/India",
-  about: "Yoooo I'm Aditya, a 20-year-old high schooler & solopreneur from India who can build blockchain, mobile, and full-stack web apps.",
+  about: "Hello! I'm Aditya, a 20-year-old tech enthusiast and solopreneur from India with a strong foundation in blockchain, mobile app development, and full-stack web applications. I’m driven by curiosity and a passion for building impactful solutions—whether it's a SaaS platform, an engaging UI, or a robust backend system. My journey is fueled by a love for innovation, and I'm always exploring ways to create products that stand out.",
   aboutBulletPoints: [   
     // "Created my startup videofast.gg - #2 Product of the Day on Product Hunt, 1.6k users",
     // "Created text-behind-image, a free tool with 30K users and #1 Product of the Day",
@@ -62,16 +62,27 @@ export const RESUME_DATA = {
     "Swift",
   ],
   currentlyBuilding: [
+    // {
+    //   name: 'Text Behind Image',
+    //   link: 'https://textbehindimage.rexanwong.xyz',
+    //   badges: ["Free tool", "Design tool"],
+    //   title: "Create text-behind-image designs easily",
+    //   logo: TextBehindImage,
+    //   date: "Since September 2024",
+    //   description: "Creating stunning text-behind-image designs are difficult and there's not many easy-to-use tools online that helps you do that. So I built my own free tool, in 3 hours with AI tools such as cursor.sh, that helps you create these stunning text-behind-image designs easily on your images. Since launching, the tool has gotten 10K users, 2 million views on X/Twitter, #1 Product of the Day on Product Hunt, and notable shoutouts from people like Ryan Hoover, the founder of Product Hunt.",
+    //   videoLink: "https://www.youtube.com/watch?v=3b_Rkv0GYV0",
+    //   projectDetailsLink: "https://producthunt.com/posts/text-behind-image",
+    // },
     {
-      name: 'Text Behind Image',
-      link: 'https://textbehindimage.rexanwong.xyz',
-      badges: ["Free tool", "Design tool"],
-      title: "Create text-behind-image designs easily",
-      logo: TextBehindImage,
+      name: 'Launch Base',
+      link: 'https://github.com/aditya000099/launchbase',
+      badges: ["SaaS", "Starter Code"],
+      title: "Starter code for your next SaaS project. Setup in just 5 mins!",
+      logo: LB,
       date: "Since September 2024",
-      description: "Creating stunning text-behind-image designs are difficult and there's not many easy-to-use tools online that helps you do that. So I built my own free tool, in 3 hours with AI tools such as cursor.sh, that helps you create these stunning text-behind-image designs easily on your images. Since launching, the tool has gotten 10K users, 2 million views on X/Twitter, #1 Product of the Day on Product Hunt, and notable shoutouts from people like Ryan Hoover, the founder of Product Hunt.",
-      videoLink: "https://www.youtube.com/watch?v=3b_Rkv0GYV0",
-      projectDetailsLink: "https://producthunt.com/posts/text-behind-image",
+      description: "A modern SaaS starter template built with Next.js 13+, Appwrite, Stripe, and more. Get your SaaS project up and running in minutes!",
+      videoLink: "https://www.youtube.com/watch?v=A1UsaEWjIqA",
+      projectDetailsLink: "https://github.com/aditya000099/launchbase",
     },
     // {
     //   name: 'VideoFast (videofast.gg)',
@@ -86,28 +97,28 @@ export const RESUME_DATA = {
     // },
   ],
   awards: [
-    // {
-    //   name: "Hong Kong Blockchain Olympiad",
-    //   link: "https://www.hkbcol.org/",
-    //   badges: ["Olympiad", "In Person", "100+ teams"],
-    //   title: "Gold medalist award",
-    //   logo: Olympiad,
-    //   date: "8/2024",
-    //   description: "The HKBCOL is a blockchain solution design competition where teams from all secondary schools from Hong Kong compete to pitch and present their blockchain solution to industry leading judges. I was awarded the gold medal (first place) for my project Proof of Workout Protocol and selected to represent Hong Kong at the International Blockchain Olympiad in the Netherlands.",
-    //   videoLink: "https://www.youtube.com/watch?v=OYj3Vru7Y4g",
-    //   projectDetailsLink: "https://github.com/rexanwong/proof-of-workout-protocol",
-    // },
     {
-      name: "ETHGlobal Online",
-      link: "https://x.com/ETHGlobal/status/1717944376528351327?s=20",
-      badges: ["Hackathon", "Online", "500+ Teams"],
-      title: "Top 10 Finalistis (Winning team) + Mantle Best UX Award",
-      logo: EthGlobalLogo,
-      date: "10/2023",
-      description: "ETHOnline is a three week long online hackathon with over $200,000 USD in prizes as well as a series of curated summits, celebrating some of the most significant happenings & learnings from the past 12 months in web3.  The hackathon is focused on building Ethereum based applications with different bounties' tools and technologies.  I built Koinu, an npm library that allows developers to include a cross chain experience within their dapps.  This project was selected as a finalist project, along with 9 other finalist projects, out of 500 projects.  Being the only under-18 to win the competition, and competiting against the best and most hardcore developers in the Web3 space, out of 515 projects, I learnt a lot more about Web3 and blockchain development during the course of the hackathon and it encouraged me to build blockchain applications more : the fact that I could compete, as a 15 year old, at the time, against the top developers of the Web3 space, and win, I am looking forward to build more applications for everyday users of Web3",
-      videoLink: " https://www.youtube.com/watch?v=uNC-Auuz1T4",
-      projectDetailsLink: "https://ethglobal.com/showcase/koinu-x8ced",
+      name: "Robotex India",
+      link: "https://www.robotex.com/",
+      badges: ["Competition", "In Person", "12+ teams"],
+      title: "Gold medalist award",
+      logo: RT,
+      date: "9/2023",
+      description: "Robotics competition where we built a Sumo robot that attacks and takes out other robots from a ring. Stood first in the competiton competing with 12+ teams",
+      // videoLink: "https://www.youtube.com/watch?v=OYj3Vru7Y4g",
+      // projectDetailsLink: "https://github.com/rexanwong/proof-of-workout-protocol",
     },
+    // {
+    //   name: "ETHGlobal Online",
+    //   link: "https://x.com/ETHGlobal/status/1717944376528351327?s=20",
+    //   badges: ["Hackathon", "Online", "500+ Teams"],
+    //   title: "Top 10 Finalistis (Winning team) + Mantle Best UX Award",
+    //   logo: EthGlobalLogo,
+    //   date: "10/2023",
+    //   description: "ETHOnline is a three week long online hackathon with over $200,000 USD in prizes as well as a series of curated summits, celebrating some of the most significant happenings & learnings from the past 12 months in web3.  The hackathon is focused on building Ethereum based applications with different bounties' tools and technologies.  I built Koinu, an npm library that allows developers to include a cross chain experience within their dapps.  This project was selected as a finalist project, along with 9 other finalist projects, out of 500 projects.  Being the only under-18 to win the competition, and competiting against the best and most hardcore developers in the Web3 space, out of 515 projects, I learnt a lot more about Web3 and blockchain development during the course of the hackathon and it encouraged me to build blockchain applications more : the fact that I could compete, as a 15 year old, at the time, against the top developers of the Web3 space, and win, I am looking forward to build more applications for everyday users of Web3",
+    //   videoLink: " https://www.youtube.com/watch?v=uNC-Auuz1T4",
+    //   projectDetailsLink: "https://ethglobal.com/showcase/koinu-x8ced",
+    // },
     // {
     //   name: "Not Another Virtual Hackathon (NAVH) by Cosensys",
     //   link: "https://navhackathon.consensys.io/",
@@ -178,7 +189,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "2026",
       activities: "Bachelors in Computer Science and Engineering",
-      logo: CAIS
+      logo: CISM
     }, 
   ],
   work: [
@@ -187,11 +198,22 @@ export const RESUME_DATA = {
       link: "https://github.com/aditya000099",
       badges: ["Remote"],
       title: "React native Developer",
-      logo: ThirdwebLogo,
+      logo: React,
       start: "2024",
       end: "Present",
       description:
         "A freelance React native app developer for an AI based app. Made the UI and integrated firebase into it.",
+    },
+    {
+      company: "Freelance",
+      link: "https://github.com/aditya000099",
+      badges: ["Remote"],
+      title: "NextJS Developer",
+      logo: Next,
+      start: "2024",
+      end: "Present",
+      description:
+        "A freelance NextJS developer for an AI based webapp. Made the UI and integrated appwrite into it.",
     },
     // {
     //   company: "City University of Hong Kong",

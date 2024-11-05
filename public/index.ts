@@ -10,8 +10,13 @@ import Arta from './arta.png'
 import Cryptoblk from './cryptoblk.png'
 import HKIS from './hkis.jpg'
 import CAIS from './cais.png'
+import CISM from './cism.svg'
 import VideoFast from './videofast.png'
 import TextBehindImage from './textbehindimage.png'
+import LB from './lb.png'
+import React from './react-icon.svg'
+import Next from './next.svg'
+import RT from './robotex.jpg'
 
 export {
     ThirdwebLogo,
@@ -26,6 +31,11 @@ export {
     Cryptoblk,
     HKIS,
     CAIS,
+    CISM,
     VideoFast,
-    TextBehindImage
+    TextBehindImage,
+    LB,
+    React,
+    Next,
+    RT
 }

@@ -374,7 +374,7 @@ const page = () => {
             );
           })}
         </Section> */}
-        <Section id='music'> 
+        {/* <Section id='music'> 
           <h2 className="text-xl font-bold">Music</h2>
           {RESUME_DATA.music.map((award) => {
             return (
@@ -389,7 +389,7 @@ const page = () => {
               </Card>
             );
           })}
-        </Section>
+        </Section> */}
       </section>
 
       <CommandMenu
