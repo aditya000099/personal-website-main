@@ -209,12 +209,12 @@ const page = () => {
                   <p className='text-xs'>
                     {award.description}
                   </p>
-                  {award.videoLink && (
+                  {/* {award.videoLink && (
                     <MediaPlayer title={award.name} src={award.videoLink}>
                       <MediaProvider />
                       <PlyrLayout icons={plyrLayoutIcons}/>
                     </MediaPlayer>
-                  )}
+                  )} */}
                   <span className="inline-flex gap-x-1">
                     {award.badges.map((badge) => (
                       <Badge
@@ -229,11 +229,11 @@ const page = () => {
                 </CardContent>
         
                 <CardFooter>
-                  <Button>
+                  {/* <Button>
                     <a href={award.projectDetailsLink} target="_blank" rel="noopener noreferrer">
                       View details
                     </a>
-                  </Button>
+                  </Button> */}
                 </CardFooter>
               </Card>
             );
