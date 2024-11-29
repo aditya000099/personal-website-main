@@ -85,6 +85,17 @@ export const RESUME_DATA = {
       projectDetailsLink: "https://github.com/aditya000099/launchbase",
     },
     // {
+    //   name: 'Studyverse',
+    //   link: 'https://github.com/aditya000099/svfrontend',
+    //   badges: ["SaaS", "Educational", "AI"],
+    //   title: "A platform for learners to quickly start with a new skill!",
+    //   logo: LB,
+    //   date: "Since October 2024",
+    //   description: "A platform for learners to quickly start with a new skill, built with ReactJS, Appwrite, Stripe, and MERN stack.",
+    //   videoLink: "https://www.youtube.com/watch?v=A1UsaEWjIqA",
+    //   projectDetailsLink: "https://github.com/aditya000099/launchbase",
+    // },
+    // {
     //   name: 'VideoFast (videofast.gg)',
     //   link: 'https://videofast.gg',
     //   badges: ["Startup", "Remotion", "Video editing tool"],
@@ -166,8 +177,8 @@ export const RESUME_DATA = {
   ],
   notableShoutouts: [
     {
-      name: "First Tweet Maybe?",
-      tweetLink: "https://twitter.com/rrhoover/status/1",
+      name: "None till now",
+      tweetLink: "https://twitter.com/adityx3",
     },
     // {
     //   name: "Steven Tey, former developer advocate at Vercel:",
