@@ -11,10 +11,11 @@ export const RESUME_DATA = {
     // "Created my startup videofast.gg - #2 Product of the Day on Product Hunt, 1.6k users",
     // "Created text-behind-image, a free tool with 30K users and #1 Product of the Day",
     // "Won international hackathons, eg. Apple Swift Student Challenge, ETHGlobal Online + more",   
-    "1k followers on X/Twitter",
-    // "Ambassador @ Thirdweb",    
-    // "Senior @ Hong Kong International School",
-    "Huge football fan (🇾🇪 #GGMU)"
+    // "1k followers on X/Twitter",
+    "Challenging myself to build a product every week",
+    "Always learning new things",
+    "Ambassador @ RabbleLabs",
+    "Bitcoin Believer"        
   ],
   avatarUrl1: "https://pbs.twimg.com/profile_images/1850581410748248064/gAAItQCq_400x400.jpg",
   avatarUrl2: "https://avatars.githubusercontent.com/u/96784980?v=4",
