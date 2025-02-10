@@ -27,6 +27,8 @@ import {
   RT,
   sv,
   ag,
+  bb,
+  svb,
 } from "@/public";
 
 export const RESUME_DATA = {
@@ -92,11 +94,11 @@ export const RESUME_DATA = {
       name: "Zocal",
       link: "https://www.zocal.in",
       badges: ["Startup", "Business directory"],
-      title: "Starter code for your next SaaS project. Setup in just 5 mins!",
+      title: "Zocal: Founder & Developer",
       logo: zocal,
-      date: "Since September 2024",
+      date: "Since December 2023",
       description:
-        "Explore the best offers and local businesses around you with Zocal. Discover, rate, and review local favorites today! Connect with your community and uncover hidden treasures right in your neighborhood.",
+        "Platform connecting users with local businesses, improving discoverability and supporting community commerce. Onboarded 50+ businesses, attracted 1000+ unique users, and achieved 10k monthly visitors.",
       videoLink: null,
       projectDetailsLink: "https://github.com/aditya000099/zocalweb",
     },
@@ -133,18 +135,19 @@ export const RESUME_DATA = {
       date: "Since September 2024",
       description:
         "A modern SaaS starter template built with Next.js 13+, Appwrite, Stripe, and more. Get your SaaS project up and running in minutes!",
-      videoLink: "https://www.youtube.com/watch?v=A1UsaEWjIqA",
+      videoLink: null,
+      // videoLink: "https://www.youtube.com/watch?v=A1UsaEWjIqA",
       projectDetailsLink: "https://github.com/aditya000099/launchbase",
     },
     {
       name: "ByteBlog",
       link: "https://byte-blog-pied.vercel.app",
       badges: ["Astrology", "AI-Driven Insights", "Educational"],
-      title: "Your AI-Powered Guide to the Cosmos",
-      logo: ag,
-      date: "Since October 2023",
+      title: "Tech Insights & Development Trends",
+      logo: bb,
+      date: "October 2023",
       description:
-        "AstroGuide is an AI-powered platform offering personalized astrology insights and educational resources about celestial phenomena. Developed with ReactJS, Appwrite, Stripe, and the MERN stack, it blends technology with ancient wisdom.",
+        "A tech-focused blogging platform where I share insights on web development, emerging technologies, and programming best practices.",
       videoLink: null,
       projectDetailsLink: "https://byte-blog-pied.vercel.app",
     },

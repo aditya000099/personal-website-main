@@ -20,6 +20,8 @@ import RT from './robotex.jpg'
 import zocal from './zocal.png'
 import sv from './sv.png'
 import ag from './ag.png'
+import bb from './bb.png'
+import svb from './svb.png'
 
 export {
     ThirdwebLogo,
@@ -43,5 +45,7 @@ export {
     RT,
     zocal,
     sv,
-    ag
+    ag,
+    bb,
+    svb
 }
