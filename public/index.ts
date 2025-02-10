@@ -17,6 +17,9 @@ import LB from './lb.png'
 import React from './react-icon.svg'
 import Next from './next.svg'
 import RT from './robotex.jpg'
+import zocal from './zocal.png'
+import sv from './sv.png'
+import ag from './ag.png'
 
 export {
     ThirdwebLogo,
@@ -37,5 +40,8 @@ export {
     LB,
     React,
     Next,
-    RT
+    RT,
+    zocal,
+    sv,
+    ag
 }
