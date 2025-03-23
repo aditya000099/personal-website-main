@@ -91,6 +91,18 @@ export const RESUME_DATA = {
   ],
   currentlyBuilding: [
     {
+      name: "Zerobase",
+      link: "https://www.github.com/aditya000099/zerobase",
+      badges: ["CRM", "BaaS"],
+      title: "Zerobase CRM",
+      logo: zocal,
+      date: "Since January 2025",
+      description:
+        "Platform connecting users with local businesses, improving discoverability and supporting community commerce. Onboarded 50+ businesses, attracted 1000+ unique users, and achieved 10k monthly visitors.",
+      videoLink: "https://youtu.be/yaTP3GnzL34?si=o5-3GylMMRCoXDT2",
+      projectDetailsLink: "https://github.com/aditya000099/zerobase",
+    },
+    {
       name: "Zocal",
       link: "https://www.zocal.in",
       badges: ["Startup", "Business directory"],
