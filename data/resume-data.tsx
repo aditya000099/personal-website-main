@@ -29,6 +29,7 @@ import {
   ag,
   bb,
   svb,
+  zerobase,
 } from "@/public";
 
 export const RESUME_DATA = {
@@ -39,10 +40,8 @@ export const RESUME_DATA = {
   about:
     "Hello! I'm Aditya, a 20-year-old tech enthusiast and solopreneur from India with a strong foundation in blockchain, mobile app development, and full-stack web applications. I’m driven by curiosity and a passion for building impactful solutions—whether it's a SaaS platform, an engaging UI, or a robust backend system. My journey is fueled by a love for innovation, and I'm always exploring ways to create products that stand out.",
   aboutBulletPoints: [
-    "Challenging myself to build a product every week",
+    "Challenging myself to code everyday",
     "Always learning new things",
-    "Ambassador @ RabbleLabs",
-    "Bitcoin Believer",
   ],
   avatarUrl1: "./aac.png",
   avatarUrl2: "https://avatars.githubusercontent.com/u/96784980?v=4",
@@ -95,22 +94,22 @@ export const RESUME_DATA = {
       link: "https://www.github.com/aditya000099/zerobase",
       badges: ["CRM", "BaaS"],
       title: "Zerobase CRM",
-      logo: zocal,
+      logo: zerobase,
       date: "Since January 2025",
       description:
-        "Platform connecting users with local businesses, improving discoverability and supporting community commerce. Onboarded 50+ businesses, attracted 1000+ unique users, and achieved 10k monthly visitors.",
+        "CMS and backend combo. Set up the Docker anywhere, and it runs. Connects easily using Zerobase sdk.",
       videoLink: "https://youtu.be/yaTP3GnzL34?si=o5-3GylMMRCoXDT2",
-      projectDetailsLink: "https://github.com/aditya000099/zerobase",
+      projectDetailsLink: "https://github.com/aditya000099/",
     },
     {
       name: "Zocal",
       link: "https://www.zocal.in",
       badges: ["Startup", "Business directory"],
-      title: "Zocal: Founder & Developer",
+      title: "Business Platform",
       logo: zocal,
       date: "Since December 2023",
       description:
-        "Platform connecting users with local businesses, improving discoverability and supporting community commerce. Onboarded 50+ businesses, attracted 1000+ unique users, and achieved 10k monthly visitors.",
+        "Platform connecting users with local businesses, improving discoverability and supporting community commerce. Onboarded 50+ businesses, attracted 1000+ unique users, and achieved 1k monthly visitors.",
       videoLink: null,
       projectDetailsLink: "https://github.com/aditya000099/zocalweb",
     },
@@ -124,7 +123,7 @@ export const RESUME_DATA = {
       description:
         "Studyverse is an innovative platform designed to help learners efficiently start and master new skills. Built using ReactJS, Appwrite, Stripe, and the MERN stack, it integrates AI to personalize the learning experience.",
       videoLink: "https://www.youtube.com/watch?v=_InJOT9042E",
-      projectDetailsLink: "https://github.com/aditya000099/launchbase",
+      projectDetailsLink: "https://github.com/aditya000099/",
     },
     {
       name: "AstroGuide",
@@ -136,20 +135,7 @@ export const RESUME_DATA = {
       description:
         "AstroGuide is an AI-powered platform offering personalized astrology insights and educational resources about celestial phenomena. Developed with ReactJS, Appwrite, Stripe, and the MERN stack, it blends technology with ancient wisdom.",
       videoLink: "https://youtu.be/qmsNEKgc99c",
-      projectDetailsLink: "https://github.com/aditya000099/launchbase",
-    },
-    {
-      name: "Launch Base",
-      link: "https://github.com/aditya000099/launchbase",
-      badges: ["SaaS", "Starter Code"],
-      title: "Starter code for your next SaaS project. Setup in just 5 mins!",
-      logo: LB,
-      date: "Since September 2024",
-      description:
-        "A modern SaaS starter template built with Next.js 13+, Appwrite, Stripe, and more. Get your SaaS project up and running in minutes!",
-      videoLink: null,
-      // videoLink: "https://www.youtube.com/watch?v=A1UsaEWjIqA",
-      projectDetailsLink: "https://github.com/aditya000099/launchbase",
+      projectDetailsLink: "https://github.com/aditya000099/",
     },
     {
       name: "ByteBlog",

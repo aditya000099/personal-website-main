@@ -9,7 +9,7 @@ import {
   PlyrLayout,
   plyrLayoutIcons,
 } from "@vidstack/react/player/layouts/plyr";
-import { GlobeIcon, MailIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Section } from "@/components/ui/section";
@@ -23,6 +23,13 @@ import { Badge } from "@/components/ui/badge";
 
 import { RESUME_DATA } from "@/data/resume-data";
 import { CommandMenu } from "@/components/command-menu";
+import {
+  Dialog,
+  DialogTrigger,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 
 const page = () => {
   useEffect(() => {
@@ -34,7 +41,7 @@ const page = () => {
 
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
-      <section className="mx-auto w-full max-w-3xl space-y-8 bg-white print:space-y-6">
+      <section className="mx-auto w-full max-w-3xl space-y-8 print:space-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
@@ -131,7 +138,7 @@ const page = () => {
           </div>
         </Section> */}
         <Section id="currentlyBuilding">
-          <h2 className="text-xl font-bold">Currently building</h2>
+          <h2 className="text-xl font-bold">Projects</h2>
           {RESUME_DATA.currentlyBuilding.map((currentlyBuilding) => {
             return (
               <Card key={currentlyBuilding.name}>
@@ -169,15 +176,6 @@ const page = () => {
                 </CardHeader>
                 <CardContent className="flex flex-col mt-2 gap-4">
                   <p className="text-xs">{currentlyBuilding.description}</p>
-                  {currentlyBuilding?.videoLink && (
-                    <MediaPlayer
-                      title={currentlyBuilding.name}
-                      src={currentlyBuilding.videoLink}
-                    >
-                      <MediaProvider />
-                      <PlyrLayout icons={plyrLayoutIcons} />
-                    </MediaPlayer>
-                  )}
 
                   <span className="inline-flex gap-x-1">
                     {currentlyBuilding.badges.map((badge) => (
@@ -191,8 +189,7 @@ const page = () => {
                     ))}
                   </span>
                 </CardContent>
-
-                <CardFooter>
+                <CardFooter className="items-center gap-x-2">
                   <Button>
                     <a
                       href={currentlyBuilding.projectDetailsLink}
@@ -202,6 +199,36 @@ const page = () => {
                       View details
                     </a>
                   </Button>
+
+                  {currentlyBuilding?.videoLink && (
+                    <Dialog>
+                      <DialogTrigger asChild>
+                        <Button
+                          className="size-8"
+                          variant="outline"
+                          size="icon"
+                          aria-label={`Play ${currentlyBuilding.name} video`}
+                        >
+                          <Play className="size-4" />
+                        </Button>
+                      </DialogTrigger>
+                      <DialogContent>
+                        <DialogHeader>
+                          <DialogTitle>{currentlyBuilding.name}</DialogTitle>
+                        </DialogHeader>
+
+                        <div className="mt-2 w-full">
+                          <MediaPlayer
+                            title={currentlyBuilding.name}
+                            src={currentlyBuilding.videoLink}
+                          >
+                            <MediaProvider />
+                            <PlyrLayout icons={plyrLayoutIcons} />
+                          </MediaPlayer>
+                        </div>
+                      </DialogContent>
+                    </Dialog>
+                  )}
                 </CardFooter>
               </Card>
             );
@@ -382,71 +409,6 @@ const page = () => {
             );
           })}
         </Section>
-        <Section id="data-science">
-          <h2 className="text-xl font-bold">Data Science</h2>
-          {RESUME_DATA.dataScience.map((item) => {
-            return (
-              <Card key={item.projectName}>
-                <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a
-                        className="hover:underline"
-                        href={item.projectLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {item.projectName}
-                      </a>
-
-                      <span className="inline-flex gap-x-1">
-                        {item.badges.map((badge) => (
-                          <Badge
-                            variant="secondary"
-                            className="align-middle text-xs"
-                            key={badge}
-                          >
-                            {badge}
-                          </Badge>
-                        ))}
-                      </span>
-                    </h3>
-                  </div>
-                </CardHeader>
-                <CardContent className="text-xs">
-                  {item.projectDescription}
-                </CardContent>
-                <CardFooter>
-                  <Button>
-                    <a
-                      href={item.projectLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View details
-                    </a>
-                  </Button>
-                </CardFooter>
-              </Card>
-            );
-          })}
-        </Section>
-        {/* <Section id='music'> 
-          <h2 className="text-xl font-bold">Music</h2>
-          {RESUME_DATA.music.map((award) => {
-            return (
-              <Card key={award.awardName}>
-                <CardHeader>
-                  <h3 className="font-semibold">{award.awardName}</h3>
-                  <div className="text-sm text-gray-500">{award.year}</div>
-                </CardHeader>
-                <CardContent>
-                  {award.description}
-                </CardContent>
-              </Card>
-            );
-          })}
-        </Section> */}
       </section>
 
       <CommandMenu
