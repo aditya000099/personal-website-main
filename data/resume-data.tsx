@@ -102,18 +102,6 @@ export const RESUME_DATA = {
       projectDetailsLink: "https://github.com/aditya000099/",
     },
     {
-      name: "Zocal",
-      link: "https://www.zocal.in",
-      badges: ["Startup", "Business directory"],
-      title: "Business Platform",
-      logo: zocal,
-      date: "Since December 2023",
-      description:
-        "Platform connecting users with local businesses, improving discoverability and supporting community commerce. Onboarded 50+ businesses, attracted 1000+ unique users, and achieved 1k monthly visitors.",
-      videoLink: null,
-      projectDetailsLink: "https://github.com/aditya000099/zocalweb",
-    },
-    {
       name: "Studyverse",
       link: "https://studyverse.pages.dev",
       badges: ["Learning Platform", "AI-Powered", "SaaS"],
@@ -124,6 +112,18 @@ export const RESUME_DATA = {
         "Studyverse is an innovative platform designed to help learners efficiently start and master new skills. Built using ReactJS, Appwrite, Stripe, and the MERN stack, it integrates AI to personalize the learning experience.",
       videoLink: "https://www.youtube.com/watch?v=_InJOT9042E",
       projectDetailsLink: "https://github.com/aditya000099/",
+    },
+    {
+      name: "Zocal",
+      link: "https://www.zocal.in",
+      badges: ["Startup", "Business directory"],
+      title: "Business Platform",
+      logo: zocal,
+      date: "Since December 2023",
+      description:
+        "Platform connecting users with local businesses, improving discoverability and supporting community commerce. Onboarded 50+ businesses, attracted 1000+ unique users, and achieved 1k monthly visitors.",
+      videoLink: null,
+      projectDetailsLink: "https://github.com/aditya000099/zocalweb",
     },
     {
       name: "AstroGuide",
