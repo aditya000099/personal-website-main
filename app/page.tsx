@@ -31,6 +31,9 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 
+import { GitHubContributionGraph } from "@/components/github-calendar";
+import { ResumeViewer } from "@/components/resume-viewer";
+
 const page = () => {
   useEffect(() => {
     const script = document.createElement("script");
@@ -125,10 +128,13 @@ const page = () => {
 
           <div className="mt-2">
             {RESUME_DATA.aboutBulletPoints.map((item) => (
-              <p className="mb-1">• {item}</p>
+              <p className="mb-1" key={item}>• {item}</p>
             ))}
           </div>
         </Section>
+
+        <ResumeViewer resumeUrl="/resume/Aditya_resume.pdf" />
+
         {/* <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">  
@@ -234,6 +240,9 @@ const page = () => {
             );
           })}
         </Section>
+        
+        <GitHubContributionGraph username="aditya000099" />
+
         <Section id="awards">
           <h2 className="text-xl font-bold">Awards </h2>
           {RESUME_DATA.awards.map((award) => {

@@ -215,38 +215,16 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Freelance",
+      company: "Deltospark",
       link: "https://github.com/aditya000099",
       badges: ["Remote"],
-      title: "React native Developer",
+      title: "Full Stack Developer Intern",
       logo: React,
-      start: "September 2024",
-      end: "December 2024",
+      start: "January 2025",
+      end: "June 2025",
       description:
-        "A freelance React native app developer for an AI based app. Made the UI and integrated firebase into it.",
+        "Worked on 5+ projects as a Full Stack Developer Intern at Deltospark. Developed web apps using react, nextjs. Used postgresql, mongodb, aws. Hosted apps on VPS.",
     },
-    {
-      company: "Freelance",
-      link: "https://github.com/aditya000099",
-      badges: ["Remote"],
-      title: "NextJS Developer",
-      logo: Next,
-      start: "November 2024",
-      end: "Present",
-      description:
-        "A freelance NextJS developer for an AI based webapp. Made the UI and integrated appwrite into it.",
-    },
-    // {
-    //   company: "City University of Hong Kong",
-    //   link: "https://www.ee.cityu.edu.hk/prospective_students/Gifted_Education_Fund",
-    //   badges: [],
-    //   title: "Speaker and Mentor for the CityU-EE Gifted Education Programme on Cryptography, Blockchain, and Fintech",
-    //   logo: CityUniversityLogo,
-    //   start: "5/2023",
-    //   end: "12/2023",
-    //   description:
-    //     "The “Coding, Cryptography and FinTech (CCF) Skills Education for Gifted Students” programm is a programm aimed for the most gifted high school students around Hong Kong, teaching them about coding, cryptography, and fintech.  As a speaker and a mentor, I hosted workshops and lectures for the program to teach the students about these topics",
-    // },
   ],
   dataScience: [
     {
