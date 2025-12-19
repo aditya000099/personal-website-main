@@ -33,6 +33,7 @@ import {
 
 import { GitHubContributionGraph } from "@/components/github-calendar";
 import { ResumeViewer } from "@/components/resume-viewer";
+import { DotPattern, StatsBento, MatrixEasterEgg } from "@/components/dev-aesthetics";
 
 const page = () => {
   useEffect(() => {
@@ -44,6 +45,8 @@ const page = () => {
 
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
+      <DotPattern className="fixed inset-0 z-[-1] opacity-50" />
+      <MatrixEasterEgg />
       <section className="mx-auto w-full max-w-3xl space-y-8 print:space-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
@@ -122,6 +125,9 @@ const page = () => {
             </Avatar>
           </div>
         </div>
+        
+        <StatsBento />
+
         <Section>
           {/* <h2 className="text-xl font-bold">About</h2> */}
           <p className="font-semibold">{RESUME_DATA.about}</p>

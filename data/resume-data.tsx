@@ -38,7 +38,7 @@ export const RESUME_DATA = {
   location: "India, IND",
   locationLink: "https://www.google.com/maps/place/India",
   about:
-    "Hello! I'm Aditya, a 20-year-old tech enthusiast and solopreneur from India with a strong foundation in blockchain, mobile app development, and full-stack web applications. I’m driven by curiosity and a passion for building impactful solutions—whether it's a SaaS platform, an engaging UI, or a robust backend system. My journey is fueled by a love for innovation, and I'm always exploring ways to create products that stand out.",
+    "Hello! I'm Aditya, a 21-year-old tech enthusiast and solopreneur from India with a strong foundation in blockchain, mobile app development, and full-stack web applications. I’m driven by curiosity and a passion for building impactful solutions—whether it's a SaaS platform, an engaging UI, or a robust backend system. My journey is fueled by a love for innovation, and I'm always exploring ways to create products that stand out.",
   aboutBulletPoints: [
     "Challenging myself to code everyday",
     "Always learning new things",
